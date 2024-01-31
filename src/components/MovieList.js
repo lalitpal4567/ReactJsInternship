@@ -19,7 +19,7 @@ const MovieList = () => {
     }, []);
 
     return (
-        <div className='d-flex flex-wrap column-gap-4 justify-content-start row-gap-5'>
+        <div className='d-flex flex-wrap column-gap-4 justify-content-center row-gap-5'>
             {
                 movies.map((item) =>{
                     return <Movie key={item.id} movie={item}/>
